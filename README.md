@@ -1,5 +1,23 @@
 # Hello
 
+This project was built to support a blog post.
+
+## Commands Used
+
+Install prerelease `phx_new`:
+
+    mix archive.install hex phx_new 1.8.0-rc.3
+
+New project:
+
+    mix phx.new hello
+
+Generate authentication logic:
+
+    mix phx.gen.auth Accounts User users
+
+## Standard Phoenix README Stuff
+
 To start your Phoenix server:
 
 * Run `mix setup` to install and setup dependencies
